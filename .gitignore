@@ -1,0 +1,19 @@
+# Large model artifacts and cache
+models/
+hf-cache/
+artifacts/**/*.json
+artifacts/**/*.log
+artifacts/**/images/
+donotdelete_artifacts/
+
+# Build outputs
+llama.cpp/build/
+llama.cpp/build-*/
+
+# Python/virtual env noise
+.venv/
+__pycache__/
+*.pyc
+
+# macOS metadata
+.DS_Store

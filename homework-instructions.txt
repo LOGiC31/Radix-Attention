@@ -1,0 +1,5 @@
+1. Deploy gemma3 (multi-modal model) with llama.cpp on your own
+computer in the server mode and test it using llava-bench-in-the-wild
+https://huggingface.co/datasets/lmms-lab/llava-bench-in-the-wild
+2. Implement RadixAttention (SGLang KV cache reuse) in llama.cpp
+3. Compare the performance of your implementation with llama.cpp baseline  using llava-bench-in-the-wild
